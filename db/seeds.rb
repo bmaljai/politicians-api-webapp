@@ -8,3 +8,11 @@
     current_office: ["representative","representative","representatitve","representative","senator"][Faker::Number.between(0,4)]
     )
 end
+
+300.times do
+  Donor.create(
+    name: Faker::Company.name,
+    contribution: Faker::Number.decimal(rand(4..7),2),
+    politician_id: rand(1..100)
+    )
+end
