@@ -1,4 +1,6 @@
 class Politician < ActiveRecord::Base
+  has_many :donors
+  
   def full_name
     return "#{first_name + " " + last_name}"
   end
