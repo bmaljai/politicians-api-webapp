@@ -40,6 +40,6 @@ class PoliticiansController < ApplicationController
     @politician = Politician.find(params[:id])
     @politician.delete
 
-    render json: "Deleted"
+    render json: @politician
   end
 end
