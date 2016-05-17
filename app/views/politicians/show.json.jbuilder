@@ -1,0 +1,1 @@
+json.partial! 'politician.json.jbuilder', politician: @politician
