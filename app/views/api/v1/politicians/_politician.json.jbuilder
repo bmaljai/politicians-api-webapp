@@ -1,5 +1,7 @@
 json.id politician.id
 json.full_name politician.full_name
+json.first_name politician.first_name
+json.last_name politician.last_name
 json.birthdate politician.birthdate
 json.age politician.age
 json.party politician.party_name
